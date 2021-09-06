@@ -22,6 +22,7 @@ public class TestBase {
 	{
 		
 			initialize();
+		
 	
 	}
  
@@ -46,7 +47,7 @@ public class TestBase {
 		return properties;
 		
 	}
-
+	
 	private void initialize() {
 		
 		try {
@@ -73,7 +74,8 @@ public class TestBase {
 		driver.quit();
 		//driver=null;
 	}
-	
+
+
 	
 
 }
