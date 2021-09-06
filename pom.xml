@@ -60,10 +60,27 @@
 		</dependency>
 		
 		<dependency>
+   			 <groupId>com.vimalselvam</groupId>
+    		 <artifactId>cucumber-extentsreport</artifactId>
+    		 <version>2.0.2</version>
+		</dependency>
+		<dependency>
+    		<groupId>com.relevantcodes</groupId>
+    		<artifactId>extentreports</artifactId>
+    		<version>2.41.2</version>
+		</dependency>
+		<dependency>
+    		<groupId>com.aventstack</groupId>
+   			<artifactId>extentreports</artifactId>
+    		<version>3.0.3</version>
+		</dependency>
+		
+		<dependency>
 			<groupId>net.masterthought</groupId>
 			<artifactId>cucumber-reporting</artifactId>
 			<version>3.8.0</version>
 		</dependency>
+		
 		
 	</dependencies>
 	<build>
@@ -106,8 +123,8 @@
 						</goals>
 						<configuration>
 							<projectName>TestNGDemo</projectName>  <!-- Replace with project name -->
-							<outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
-							<cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
+							<outputDirectory>target/cucumber-reports/cucumber-advanced</outputDirectory>
+							<cucumberOutput>target/cucumber-reports/CucumberTestReport.html</cucumberOutput>
 							<buildNumber>1</buildNumber>
 							<parallelTesting>false</parallelTesting>
 						</configuration>
